@@ -36,14 +36,21 @@ float meuDecimal = 1.3;
 printf("%d, %f", meuNumero, meuDecimal);
 printf("%f, %f", meuDecimal, meuDecimal);
 printf("%s,%f,%d", meuCaractere, meuDecimal, meuNumero);
-printf("????????", meuNumero, meuCaractere, meuDecimal, meuNumero);
+printf("%d, %s, %f, %d", meuNumero, meuCaractere, meuDecimal, meuNumero);
 
 4. Crie variáveis e crie o código necessário para que seja impresso na tela as seguintes mensagens:
 
-a)
+a) float num1, num2, soma;
+num1= 4;
+num2= 9;
+soma= num1+num2;
+prinft ("A soma de %f e %f e: %f\n", num1, num2, soma);
 A soma de 4 e 9 é 13.
 
-b)
+b) int num1, produto;
+num1= 5;
+produto= num1*num1;
+printf ("O produto entre %d e %d e: %d\n", num1, num1, produto);
 => o produto de 5 e 5 é 25.
 
 c)
@@ -54,37 +61,37 @@ d)
 
 5. Complete o código para que seja exibida a soma de 5 + 10 usando as variáveis x e y:
 
-???? ???? = ????;
+int x = 5;
 int y = 10;
 printf("%d", x + y);
 
 6. Complete as partes que estão faltando para criar as três variáveis do mesmo tipo:
 
-??? x = 5 ?? y = 6 ?? z = 50;
+int x = 5 ?? y = 6 ?? z = 50;
 printf("%d", x + y + z);
 
 7. Complete as variáveis abaixo com o tipo correto:
 
-???? meuNumero = 5;
-???? meuNumeroDecimal = 5.99;
-???? meuCaractere = 'D';
+int meuNumero = 5;
+float meuNumeroDecimal = 5.99;
+char meuCaractere = 'D';
 
 8. Complete o código abaixo para multiplicar 5 com 10 e imprimir o resultado:
 int x = 10;
 int y = 5;
-printf("????", x ???? y);
+printf("%d", x*y);
 
 9. Coloque o operador correto no código abaixo para que ele imprima as saídas desejadas (valor desejado impresso na tela):
 a)
 int x = 10;
-printf("x: ???", ???);
-printf("x: ???", ???);
+printf("x: %d", x);
+printf("x: %d", ++x);
 //saída desejada: 10 11
 
 b)
 int x = 10;
-printf("x: ???", ???);
-printf("x: ???", ???);
+printf("x: %d", x++);
+printf("x: %d", x);
 //saída desejada: 11 11
 
 c)
