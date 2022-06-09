@@ -173,7 +173,7 @@ if (aux > 20 && aux < 40) {
 int x = 50;
 int y = 50;
 
-if (x = y) {
+if (x == y) {
   printf("1");
 } else if (x > y) {
   printf("2");
