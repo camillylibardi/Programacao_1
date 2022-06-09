@@ -12,7 +12,7 @@ b)
 */
 
 2. Cria uma variável nomeada meuNumero e atribua o valor de 50 a ela.
-int meuNumero
+int meuNumero;
 meuNumero = 50;
 
 3. Use o correto especificador de formato para imprimir o valor da varíavel na tela:
@@ -53,10 +53,11 @@ produto= num1*num1;
 printf ("O produto entre %d e %d e: %d\n", num1, num1, produto);
 => o produto de 5 e 5 é 25.
 
-c)
+c) char A [24];
+char B [30];
 Opcao 'A': 24, opcao 'B': 30.
 
-d)
+d) 
 [caractere digitado: "B"]
 
 5. Complete o código para que seja exibida a soma de 5 + 10 usando as variáveis x e y:
@@ -67,7 +68,9 @@ printf("%d", x + y);
 
 6. Complete as partes que estão faltando para criar as três variáveis do mesmo tipo:
 
-int x = 5 ?? y = 6 ?? z = 50;
+int x = 5; 
+int y = 6; 
+int z = 50;
 printf("%d", x + y + z);
 
 7. Complete as variáveis abaixo com o tipo correto:
@@ -90,7 +93,7 @@ printf("x: %d", ++x);
 
 b)
 int x = 10;
-printf("x: %d", x++);
+printf("x: %d", ++x);
 printf("x: %d", x);
 //saída desejada: 11 11
 
@@ -102,7 +105,7 @@ printf("x: %d", ++x);
 
 10. Complete com somente o valor desejado para que o valor 5 seja adicionado à variável 10:
 int x = 10;
-x+5;
+x=+5;
 
 11. Complete as condições abaixo da forma certa para que os códigos tenham a saída desejada:
 a)
@@ -116,7 +119,7 @@ if (x > y) {
 b)
 int x = 10;
 int y = 50;
-if (y > x) {
+if (y < x) {
     printf("x é maior que y");
 }else {
     printf("x é menor que y");
@@ -126,8 +129,8 @@ if (y > x) {
 c)
 int x = 20;
 int y = 20;
-?? (x ??? y) {
-    printf("x (???) é maior ou igual a y (???)", ???, ???);
+if (x >= y) {
+    printf("x %d é maior ou igual a y %d", x, y);
 } else {
     printf("x é menor que y");
 }
@@ -137,13 +140,13 @@ int y = 20;
 int aux;
 printf("Entre com um valor inteiro: ");
 scanf("%d", &aux);
-if (aux ??? 20 ??? aux < 40) {
+if (aux > 20 && aux < 40) {
     printf("O valor digitado está entre 20 e 40\n");
-}????? (????????????) {
+} else if (aux= 40 && aux < 60) {
     printf("O valor digitado é 40 ou menor que 60\n");
-}????? (????????????) {
+} else if (aux >=60) {
     printf("O valor digitado é 60 ou maior que 60\n");
-} ????? (????????????) {
+} else {
     printf("O valor digitado é 20 ou menor que 20\n");
 }
 
@@ -151,11 +154,11 @@ if (aux ??? 20 ??? aux < 40) {
 int x = 50;
 int y = 50;
 
-??? (x ??? y) {
+if (x = y) {
   printf("1");
-} ???????? (x ??? y) {
+} else if (x > y) {
   printf("2");
-} ????? {
+} else {
   printf("3");
 }
 
@@ -163,13 +166,14 @@ int y = 50;
 
 a) 
 int num;
-scanf("Digite um número: "%c", num);
+printf ("Digite um número:\n");
+scanf("%d", &num);
 
 b)
 char nome[30];
-printf("Digite seu nome:");
-scanf("%d", nome);
+printf("Digite seu nome:\n");
+scanf("%s", &nome);
 
 c)
 float num;
-scanf("%f", *num);
+scanf("%f", &num);
