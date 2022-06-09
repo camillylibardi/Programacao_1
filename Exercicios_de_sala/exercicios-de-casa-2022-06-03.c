@@ -6,28 +6,33 @@ int main() {
     return 0;
 }
 
+
 b)
 // Comentário de uma linha simples
 /*Comentário de várias linhas 
 */
 
+    
 2. Cria uma variável nomeada meuNumero e atribua o valor de 50 a ela.
 int meuNumero;
 meuNumero = 50;
 
-3. Use o correto especificador de formato para imprimir o valor da varíavel na tela:
 
+3. Use o correto especificador de formato para imprimir o valor da varíavel na tela:
 a)
 int meuNumero = 15;
 printf("%d", meuNumero);
 
+
 b)
 char meuCaractere = 'D';
-printf("%s", meuCaractere);
+printf("%c", meuCaractere);
+
 
 c)
 float meuDecimal = 1.3;
 printf("%f", meuDecimal);
+
 
 d)
 int meuNumero = 15;
@@ -35,11 +40,11 @@ char meuCaractere = 'D';
 float meuDecimal = 1.3;
 printf("%d, %f", meuNumero, meuDecimal);
 printf("%f, %f", meuDecimal, meuDecimal);
-printf("%s,%f,%d", meuCaractere, meuDecimal, meuNumero);
-printf("%d, %s, %f, %d", meuNumero, meuCaractere, meuDecimal, meuNumero);
+printf("%c,%f,%d", meuCaractere, meuDecimal, meuNumero);
+printf("%d, %c, %f, %d", meuNumero, meuCaractere, meuDecimal, meuNumero);
+
 
 4. Crie variáveis e crie o código necessário para que seja impresso na tela as seguintes mensagens:
-
 a) float num1, num2, soma;
 num1= 4;
 num2= 9;
@@ -47,42 +52,53 @@ soma= num1+num2;
 prinft ("A soma de %f e %f e: %f\n", num1, num2, soma);
 A soma de 4 e 9 é 13.
 
+    
 b) int num1, produto;
 num1= 5;
 produto= num1*num1;
 printf ("O produto entre %d e %d e: %d\n", num1, num1, produto);
 => o produto de 5 e 5 é 25.
 
-c) char A [24];
-char B [30];
+    
+c) char A, B;
+   int n1, n2;
+   A= A';
+   B= B';
+   n1= 24;
+   n2= 30;
+printf ("Opcao %c : %d, opcao %c : %d", A, n1, B, n2);
 Opcao 'A': 24, opcao 'B': 30.
 
-d) 
+    
+d) char c1= B;
+printf ("[ caractere digitado: \"%c\"]\n", c1);
 [caractere digitado: "B"]
 
-5. Complete o código para que seja exibida a soma de 5 + 10 usando as variáveis x e y:
 
+5. Complete o código para que seja exibida a soma de 5 + 10 usando as variáveis x e y:
 int x = 5;
 int y = 10;
 printf("%d", x + y);
 
-6. Complete as partes que estão faltando para criar as três variáveis do mesmo tipo:
 
+6. Complete as partes que estão faltando para criar as três variáveis do mesmo tipo:
 int x = 5; 
 int y = 6; 
 int z = 50;
 printf("%d", x + y + z);
 
-7. Complete as variáveis abaixo com o tipo correto:
 
+7. Complete as variáveis abaixo com o tipo correto:
 int meuNumero = 5;
 float meuNumeroDecimal = 5.99;
 char meuCaractere = 'D';
+
 
 8. Complete o código abaixo para multiplicar 5 com 10 e imprimir o resultado:
 int x = 10;
 int y = 5;
 printf("%d", x*y);
+
 
 9. Coloque o operador correto no código abaixo para que ele imprima as saídas desejadas (valor desejado impresso na tela):
 a)
@@ -91,11 +107,13 @@ printf("x: %d", x);
 printf("x: %d", ++x);
 //saída desejada: 10 11
 
+
 b)
 int x = 10;
 printf("x: %d", ++x);
 printf("x: %d", x);
 //saída desejada: 11 11
+
 
 c)
 int x = 10;
@@ -103,9 +121,10 @@ printf("x: %d", ++x);
 printf("x: %d", ++x);
 //saída desejada: 11 12
 
+
 10. Complete com somente o valor desejado para que o valor 5 seja adicionado à variável 10:
 int x = 10;
-x=+5;
+x+=5;
 
 11. Complete as condições abaixo da forma certa para que os códigos tenham a saída desejada:
 a)
