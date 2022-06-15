@@ -7,9 +7,9 @@ int main (){
   scanf ("%f", &prest);  
   cred= sal*0,3;
     
-  if ( cred >= prest ){
-	  printf ("Seu empréstimo pode ser concedido");
+  if ( prest > cred ){
+	  printf ("Seu empréstimo  não pode ser concedido");
   }
   else 
-	    printf ("Seu empréstimo não pode ser concedido");
+	    printf ("Seu empréstimo pode ser concedido");
 	
