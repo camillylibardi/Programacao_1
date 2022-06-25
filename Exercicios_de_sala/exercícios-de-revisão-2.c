@@ -21,3 +21,30 @@
       Imprime Paula gahou.
 */
 
+
+#include <stdio.h> 
+int main () {
+    int N, M, vez=0;
+    printf ("EScreva a quantidade de bolinhas de chocolate:\n");
+    scanf ("%d %d",&N,&M);
+    while (N>0){
+        if (vez==0){
+            printf ("Paula -  ");
+            vez=1;
+        }else{
+            printf ("Carlos -  ");
+            vez=0;
+        }
+        N=N-M;
+        if (N<0)
+           printf ("0\n");
+        else 
+           printf ("%d\n",N);
+    }
+    if (vez==0)
+           printf ("Carlos ganhou\n");
+    else 
+           printf ("Paula ganhou\n");
+      
+}
+
