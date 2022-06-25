@@ -26,7 +26,9 @@
 int main () {
     int N, M, vez=0;
     printf ("EScreva a quantidade de bolinhas de chocolate:\n");
-    scanf ("%d %d",&N,&M);
+    scanf ("%d",&N);
+    printf ("EScreva a quantidade de bolinhas de chocolate que foi sorteada:\n");
+    scanf ("%d",&M);
     while (N>0){
         if (vez==0){
             printf ("Paula -  ");
@@ -47,4 +49,3 @@ int main () {
            printf ("Paula ganhou\n");
       
 }
-
