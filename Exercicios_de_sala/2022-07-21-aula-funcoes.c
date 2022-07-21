@@ -11,3 +11,24 @@ int par_ou_impar(int num){
 
 
 int main() {
+    
+    
+    
+    
+    //outra
+    
+    #include <stdio.h>
+void qualquer_um(int p){
+    printf ("Hello Word:%d\n",p);
+}
+
+
+
+int main (){ 
+    qualquer_um(7);
+    qualquer_um(5);
+    qualquer_um(1);
+}
+
+
+
