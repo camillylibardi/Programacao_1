@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//1 se for par, 0 se for impar
+int par_ou_impar(int num){
+    if (num%2== 0)
+        return 1;
+    else
+        return 0;
+}
+
+
+int main() {
