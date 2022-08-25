@@ -134,3 +134,34 @@ switch (n){
 }
 printf ("Peso no planeta:%f", pesoplaneta);
   }
+
+// outra
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+int vet[15], i;
+
+for (i=0; i<5; i++){
+  printf("escreva um numero:\n");
+  scanf("%d", &vet[i] );
+}
+for (i=0; i<5; i++)
+  printf("%d,",vet[i]);
+  }
+
+// outra
+void main() {
+int i, lista[5], maior;
+
+ for (i=0; i<5; i++) {
+ printf("Informe um numero: \n");
+ scanf("%d", &lista[i]);
+   }
+maior = lista[i];
+for (i=0; i<5; i++) {
+if (maior < lista[i])
+  maior = lista[i];
+ }
+ printf("Maior = %d \n", maior);}
